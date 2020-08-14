@@ -1,0 +1,24 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "deduplicating-sqs-messages",
+  "main": "index.js",
+  "dependencies": {
+    "@shelf/jest-dynamodb": "^1.7.0",
+    "@types/node": "^14.0.27",
+    "aws-sdk": "^2.732.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.9",
+    "jest": "^26.4.0",
+    "ts-jest": "^26.2.0",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC"
+}
